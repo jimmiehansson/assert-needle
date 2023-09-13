@@ -61,4 +61,6 @@ function expected(str) {
 }
 
 
-module.exports = expected;
+module.exports = {
+  expected
+};
