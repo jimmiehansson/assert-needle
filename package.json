@@ -1,0 +1,25 @@
+{
+  "name": "assert-needle",
+  "version": "1.0.0",
+  "description": "Helper to match words against strings in tests",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jimmiehansson/assert-needle.git"
+  },
+  "keywords": [
+    "string",
+    "needle",
+    "match",
+    "assert"
+  ],
+  "author": "Jimmie Hansson",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/jimmiehansson/assert-needle/issues"
+  },
+  "homepage": "https://github.com/jimmiehansson/assert-needle#readme"
+}
