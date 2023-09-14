@@ -17,7 +17,7 @@
  * // true
  * // return expected('123 abc').output({ has: ['bca', '321']})
  * // false
- * {@link helper.test.js Tests for member output}
+ * {@link test.js Tests for member output}
  *
  * @param {String} str - String literal to evaluate
  * @returns {Boolean|Undefined}
