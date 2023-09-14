@@ -37,10 +37,8 @@ function expected(str) {
   };
   var shake = ({ s_, ndl_ }) => {
     var delim = ' '; // split str by this delimiter
-    /* eslint-disable */
     // redact () [] : and \s (lint not identifying regex)
     var sane = /([\s()[\[^\]]:*)/mg;
-    /* eslint-enable */
     if (!valid.string(s_) || !valid.array(ndl_)) return void 0;
     // sanitize str, split into array, iterate and evaluate presence of matched elements
     var tree = s_.replace(sane, ' ').split(delim).filter(o => ndl_.indexOf(o) !== -1);
